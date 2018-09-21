@@ -1,11 +1,11 @@
-#include <stdio.h>
+#include <stdio.h> 
 
-int main() {
-  char men[30];
-  if (scanf("%s", men) != '\0'){
-    printf("Hello, %s!", men);
-  }else{
-    printf("Hello, nameless!");
-  }
-  return 0;
+int main() { 
+char yee[30]; 
+if (scanf("%s", yee)!=EOF){ 
+printf("Hello, %s!", yee); 
+}else{ 
+printf("Hello, nameless!"); 
+} 
+return 0; 
 }
