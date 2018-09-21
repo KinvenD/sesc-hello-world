@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-  char string[31];
+  char string[30];
   if (scanf("%s", string) != '\0'){
     printf("Hello, %s!", string);
   }else{
