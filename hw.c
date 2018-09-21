@@ -2,7 +2,7 @@
 
 int main() {
   char string[30];
-  if (scanf("%s", string) != "\0"){
+  if (scanf("%s", string) != '\0'){
     printf("Hello, %s!", string);
   }else{
     printf("Hello, nameless!");
